@@ -17,26 +17,18 @@
           <ul>
             <li><a href="{{ '' | absolute_url }}">Home</a></li>
             <li><a href="{{ 'generic.html' | absolute_url }}">Profile</a></li>
-            <li><a href="{{ 'elements.html' | absolute_url }}">Elements</a></li>
+            
             <li>
               <span class="opener">Portfolio</span>
               <ul>
-                <li><a href="#">Project 1</a></li>
-                <li><a href="#">Project 2</a></li>
-                <li><a href="#">Project 3</a></li>
-                <li><a href="#">Project 4</a></li>
+                <li><a href="{{ 'posts/Titanic_Kaggle_dataset.html' | absolute_url }}">Titanic Machine Learning</a></li>
+                <li><a href="{{ 'posts/LC_Final_Report.html' | absolute_url }}">Lending Club Default Classification</a></li>
+                <li><a href="{{ 'posts/projectlc2_Kor.html' | absolute_url }}">Lending Club Default Classification(Kor.)</a></li>
+                
               </ul>
             </li>
             
-            <li>
-              <span class="opener">Data Science</span>
-              <ul>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-              </ul>
-            </li>
+            <li><a href=#>Data Science</a></li>
 
 
 
@@ -47,41 +39,18 @@
         </nav>
 
       <!-- Section -->
-        <section>
-          <header class="major">
-            <h2>Ante interdum</h2>
-          </header>
-          <div class="mini-posts">
-            <article>
-              <a href="#" class="image"><img src="assets/images/pic07.jpg" alt="" /></a>
-              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="assets/images/pic08.jpg" alt="" /></a>
-              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="assets/images/pic09.jpg" alt="" /></a>
-              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-            </article>
-          </div>
-          <ul class="actions">
-            <li><a href="#" class="button">More</a></li>
-          </ul>
-        </section>
+        
 
       <!-- Section -->
         <section>
           <header class="major">
             <h2>Get in touch</h2>
           </header>
-          <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+          <p>Send Email</p>
           <ul class="contact">
             <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
-            <li class="fa-phone">{{ site.phone }}</li>
-            <li class="fa-home">{{ site.street_address }}<br />
-            {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
-            {{ site.country }}</li>
+            
+           
           </ul>
         </section>
 

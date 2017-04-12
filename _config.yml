@@ -1,21 +1,22 @@
 # Site settings
-title: Blog
+title: 
 subtitle: Curtis Gibeom Kim
 email: curtisk808@gmail.com
 description: ZB.com
 baseurl: "" # the subpath of your site, e.g. /blog
+#exclude: []
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 123123
-city: 123123
-state: 123123
-zip_code: 123123
-country: 
-phone: 123123123
+author: curtis gibeom kim
+#street_address: 123123
+#city: 123123
+#state: 
+#zip_code: 
+#country: 
+#phone: 
 
 # Social settings
 500px_url:
-facebook_url: facebook.com/curtisgibeomkim
+facebook_url: https://www.facebook.com/curtisgibeomkim
 github_url: https://github.com/zeebeum
 gitlab_url: 
 googleplus_url: 
@@ -26,4 +27,5 @@ slack_url:
 twitter_url: 
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+#markdown: redcarpet

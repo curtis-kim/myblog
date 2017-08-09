@@ -3,7 +3,7 @@ title:
 subtitle: Curtis Gibeom Kim
 email: curtisk808@gmail.com
 description: ZB.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/myblog" # the subpath of your site, e.g. /blog
 #exclude: []
 url: "" # the base hostname & protocol for your site
 author: curtis gibeom kim
@@ -17,7 +17,7 @@ author: curtis gibeom kim
 # Social settings
 500px_url:
 facebook_url: https://www.facebook.com/curtisgibeomkim
-github_url: https://github.com/zeebeum
+github_url: https://github.com/gibeomk
 gitlab_url: 
 googleplus_url: 
 instagram_url: 

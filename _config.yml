@@ -2,8 +2,8 @@
 title: 
 subtitle: Curtis Gibeom Kim
 email: curtisk808@gmail.com
-description: ZB.com
-baseurl: "/myblog" # the subpath of your site, e.g. /blog
+description: Curtis.com
+baseurl: "/myblog"  # the subpath of your site, e.g. /blog
 #exclude: []
 url: "" # the base hostname & protocol for your site
 author: curtis gibeom kim

@@ -4,12 +4,13 @@
 <script type=”text/javascript” src= 'pdfobject/pdfobject.js'></script>
 <script type=”text/javascript”>
 window.onload = function (){
-var success = new PDFObject({ url: 'Publication.pdf' }).embed();
+var success = new PDFObject({ url: 'posts/Publication.pdf' }).embed();
 };
 </script>
 </head>
 <body>
+
 <p>It appears you don’t have Adobe Reader or PDF support in this web
-browser. <a href= "{{ 'Publication.pdf' | absolute_url }}" >Click here to download the PDF</a></p>
+browser. <a href= "{{ 'posts/Publication.pdf' | absolute_url }}" >Click here to download the PDF</a></p>
 </body>
 </html>

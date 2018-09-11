@@ -17,7 +17,7 @@ image: assets/images/pic11.jpg
 - Completed ABBEK program 
 
 ### Work Experience
-- VISION-IN, Inc.
+- VISION-IN, INC. INCHEON, KOR
 		- Research Assistant
-- UNITED MERCHENT SERVICES, INC
-		- Intern
+- UNITED MERCHENT SERVICES, INC. NJ, U.S.A 
+		- IT Dept. Intern
